@@ -1,0 +1,81 @@
+@media (max-width: 1024px) {
+  .hero-grid,
+  .about-grid,
+  .contact-grid,
+  .skill-grid,
+  .timeline-grid,
+  .research-grid,
+  .project-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 860px) {
+  .topbar-inner {
+    padding: 14px 0;
+  }
+
+  .main-nav {
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 4px;
+  }
+
+  .main-nav a {
+    flex: 0 0 auto;
+  }
+
+  .hero-grid,
+  .about-grid,
+  .contact-grid,
+  .skill-grid,
+  .timeline-grid,
+  .research-grid,
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-shell {
+    padding: 72px 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero {
+    padding-top: 56px;
+  }
+
+  .cta-row,
+  .topbar-actions,
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .topbar-inner {
+    flex-wrap: wrap;
+  }
+
+  .hero-visual {
+    min-height: auto;
+  }
+
+  .photo-card,
+  .photo-card__frame,
+  .photo-card__image,
+  .photo-card__placeholder {
+    min-height: auto;
+  }
+
+  .photo-card__frame,
+  .photo-card__image,
+  .photo-card__placeholder {
+    height: 320px;
+  }
+
+  .site-footer {
+    padding-bottom: 44px;
+  }
+}
