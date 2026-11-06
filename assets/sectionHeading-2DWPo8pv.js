@@ -1,0 +1,1 @@
+import{n as e}from"./index-Tbcq-kb4.js";var t=e();function n({eyebrow:e,title:n,description:r}){return(0,t.jsxs)(`div`,{className:`section-heading`,children:[(0,t.jsx)(`span`,{className:`eyebrow`,children:e}),(0,t.jsx)(`h2`,{children:n}),(0,t.jsx)(`p`,{children:r})]})}export{n as t};
